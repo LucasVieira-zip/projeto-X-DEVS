@@ -61,16 +61,6 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   transition: opacity 0.3s ease-in-out;
-
-  /* 
-    Comentário pra ajudar a entender o flex direction column :) 
-
-    Quando o flex-direction tem valor column
-    o justify-content alinha os filhos verticalmente
-    e o align-items alinha os filhos horizontalmente
-    no caso do flex-direction com valor row é o contrário
-  */
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
